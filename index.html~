@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>My Resume</title>
+		<title>Sleep is overrated</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -22,16 +22,25 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1>My Resume</h1>
-						<p>B.S. Electrical Engineering</p>
+						<h1>Lorenzo Corral</h1>
+						<p>Engineer &nbsp;&bull;&nbsp; Gamer &nbsp;&bull;&nbsp; Dreamer</p>
 						<nav>
 							
 <footer>
 
-<p> 
-Testing this resume page.
-</p>
-							
+<ul class="icons">
+<!--	I don't have twitter 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+-->	
+							<li><a href="https://www.facebook.com/theoneandonlyzo?_rdr=p" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-dribbble"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:lcorral9@gmail.com" class="icon fa-envelope-o"><span class="label">My Email</span></a></li>
+							</ul>
+							<ul class="icons">
+	<li><a href="https://github.com/lcorral/lcorral.github.io.git" class="icon fa-gears-o"><span class="label">My Email</span></a></li>
+	<li><a href="mailto:lcorral9@gmail.com" class="icon fa-envelope-o"><span class="label">My Email</span></a></li>
+
+						<p id="status_text">&nbsp;</p>	</ul>
 </footer>
 
 						</nav>
