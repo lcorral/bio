@@ -16,7 +16,26 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 
+	
+
 	<body class="loading">
+
+		<script type=text/javascript>
+			function changetext(new_text)
+				{
+					var id = document.getElementById("status_text");
+					id.innerHTML=new_text;
+				}
+			</script>
+	
+		<script type=text/javascript>
+			function resetText()
+				{
+					var id = document.getElementById("status_text");
+					id.innerHTML="&nbsp;";
+				}
+			</script>
+
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
@@ -52,9 +71,10 @@ C; C++; HTML; CSS; Python; PL/SQL;Javascript; Korn shell scripting; Oracle Data 
 </p>
 
 <ul class="icons">
-		<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-heartbeat "><span class="label">Tableau COVID-19 Viz</span></a></li>
-		<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-gamepad"><span class="label">Tableau Pokemon Viz</span></a></li>
-		<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-heartbeat" onmouseover="changetext('Tableau COVID-19 Viz');" onmouseout="resetText();"></a></li>
+		<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-gamepad" onmouseover="changetext('Tableau Pokemon Dex Viz');" onmouseout="resetText();"></a></li>
+		<li><a href="https://www.linkedin.com/pub/lorenzo-corral/52/700/978" class="icon fa-linkedin" onmouseover="changetext('LinkedIn');" onmouseout="resetText();"></a></li>
+		
 		<p id="status_text">&nbsp;</p>
 	</ul>
 	<br>
